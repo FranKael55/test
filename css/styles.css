@@ -818,8 +818,16 @@
     body {
       background-color: #2320b9;
     }
+    .layout .s2 #s2_content #title_1_s2{
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    .layout .s2 #s2_content #text_1_s2{
+      font-size: 1.22rem;
+    }
   }
 
+  
   @media screen and (orientation: landscape) and (min-width: 320px) {
     body {
       background-color: #00b1bb;
@@ -1020,5 +1028,9 @@
 
     .layout section {
       font-size: 40px;
+    }
+
+    .home svg{
+      height: 0.7;
     }
   }
