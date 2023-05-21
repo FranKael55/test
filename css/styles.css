@@ -908,81 +908,99 @@
     }
   }
 
-/*-------------------------------- 481px --------------------------------*/
-
-
-  @media screen and (orientation: portrait) and (min-width: 481px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-
-    body {
-      background-color: #bb0000;
-    }
-
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
-    }
-    .layout section {
-      font-size: 40px;
-    }
-  }
-
-  @media screen and (orientation: landscape) and (min-width: 481px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-
-    body {
-      width: 0px;
-      background-color: #bb4b00f7;
-    }
-
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
-    }
-
-    .layout section {
-      font-size: 40px;
-    }
-  }
-
 
 /*-------------------------------- 769px --------------------------------*/
 
 
-  @media screen and (orientation: portrait) and (min-width: 769px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-
+  @media screen and (orientation: portrait) and (min-width: 768px) {
     body {
-      width: 0px;
-      background-color: #00dc1df7;
     }
-
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
+    .layout .s2 svg {
+      width: 25px;
     }
-
-    .layout section {
-      font-size: 40px;
+    .layout .s2 #s2_content{
+      width: 75%;
+    }
+    .layout .s2 #s2_content #title_1_s2{
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+    }
+    .layout .s2 #s2_content #text_1_s2{
+      font-size: 1.7rem;
+    }
+    .layout .s3 svg {
+      width: 25px;
+    }
+    .layout .s3 #s3_content{
+      width: 75%;
+    }
+    .layout .s3 #s3_content #title_1_s3{
+      font-size: 2.8rem;
+    }
+    .layout .s3 #s3_content #text_1_s3{
+      font-size: 1.7rem;
+    }
+    .layout .s3 #s3_content #text_2_s3{
+      font-size: 1.7rem;
+    }
+    .layout .s4 svg {
+      width: 25px;
+    }
+    .layout .s4 #s4_content #title_1_s4{
+      font-size: 2.8rem;
+    }
+    .layout .s4 #s4_content #text_1_s4{
+      font-size: 1.7rem;
+    }
+    .layout .s5 svg {
+      width: 25px;
+    }
+    .layout .s5 #s5_content #title_1_s5{
+      font-size: 2.8rem;
+    }
+    .layout .s5 #s5_content #text_1_s5{
+      font-size: 1.7rem;
+    }
+    .layout .s6 svg {
+      width: 25px;
+    }
+    .layout .s6 #s6_content #title_1_s6{
+      font-size: 2.8rem;
+    }
+    .layout .s6 #s6_content #text_1_s6{
+      font-size: 1.7rem;
+    }
+    .layout .s6 #s6_content #text_2_s6{
+      font-size: 1.7rem;
+    }
+    .layout .s7 svg {
+      width: 25px;
+    }
+    .layout .s7 #s7_content #title_1_s7{
+      font-size: 2.8rem;
+    }
+    .layout .s7 #s7_content #text_1_s7{
+      font-size: 1.7rem;
+    }
+    .layout .s8 svg {
+      width: 25px;
+    }
+    .layout .s8 #s8_content #title_1_s8{
+      font-size: 2.8rem;
+    }
+    .layout .s8 #s8_content #text_1_s8{
+      font-size: 1.7rem;
+    }
+    .layout .s8 #s8_content #text_2_s8{
+      font-size: 1.7rem;
+    }
+    footer{
+      font-size: 1.2rem;
+      width: 80%;
     }
   }
 
-  @media screen and (orientation: landscape) and (min-width: 769px) {
+  @media screen and (orientation: landscape) and (min-width: 768px) {
     body::-webkit-scrollbar {
       width: 0px;
       background: transparent;
@@ -992,56 +1010,6 @@
     body {
       width: 0px;
       background-color: #00710ff7;
-    }
-
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
-    }
-
-    .layout section {
-      font-size: 40px;
-    }
-  }
-
-
-/*-------------------------------- 1025px --------------------------------*/
-
-
-  @media screen and (orientation: portrait) and (min-width: 1025px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-
-    body {
-      width: 0px;
-      background-color: #dcdc00f7;
-    }
-
-    .layout .section-stick {
-      right: 20px;
-      bottom: 20px;
-      transform: scale(0.7);
-    }
-
-    .layout section {
-      font-size: 40px;
-    }
-  }
-
-  @media screen and (orientation: landscape) and (min-width: 1025px) {
-    body::-webkit-scrollbar {
-      width: 0px;
-      background: transparent;
-      -webkit-appearance: none;
-    }
-
-    body {
-      width: 0px;
-      background-color: #929200f7;
     }
 
     .layout .section-stick {
