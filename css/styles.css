@@ -906,6 +906,11 @@
     body {
       background-color: chartreuse;
     }
+    .layout {
+      width: 100%;
+      height: calc(100vh * 1);
+      position: relative;
+    }
     .layout .s2 svg {
       width: 20px;
     }
