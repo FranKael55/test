@@ -904,7 +904,89 @@
   
   @media screen and (orientation: landscape) and (min-width: 320px) {
     body {
-      background-color: #00b1bb;
+    }
+    .layout .s2 svg {
+      width: 20px;
+    }
+    .layout .s2 #s2_content{
+      width: 75%;
+    }
+    .layout .s2 #s2_content #title_1_s2{
+      font-size: 2.3rem;
+      margin-bottom: 30px;
+    }
+    .layout .s2 #s2_content #text_1_s2{
+      font-size: 1.22rem;
+    }
+    .layout .s3 svg {
+      width: 20px;
+    }
+    .layout .s3 #s3_content{
+      width: 75%;
+    }
+    .layout .s3 #s3_content #title_1_s3{
+      font-size: 2.3rem;
+    }
+    .layout .s3 #s3_content #text_1_s3{
+      font-size: 1.22rem;
+    }
+    .layout .s3 #s3_content #text_2_s3{
+      font-size: 1.22rem;
+    }
+    .layout .s4 svg {
+      width: 20px;
+    }
+    .layout .s4 #s4_content #title_1_s4{
+      font-size: 2.3rem;
+    }
+    .layout .s4 #s4_content #text_1_s4{
+      font-size: 1.22rem;
+    }
+    .layout .s5 svg {
+      width: 20px;
+    }
+    .layout .s5 #s5_content #title_1_s5{
+      font-size: 2.3rem;
+    }
+    .layout .s5 #s5_content #text_1_s5{
+      font-size: 1.22rem;
+    }
+    .layout .s6 svg {
+      width: 20px;
+    }
+    .layout .s6 #s6_content #title_1_s6{
+      font-size: 2.3rem;
+    }
+    .layout .s6 #s6_content #text_1_s6{
+      font-size: 1.22rem;
+    }
+    .layout .s6 #s6_content #text_2_s6{
+      font-size: 1.22rem;
+    }
+    .layout .s7 svg {
+      width: 20px;
+    }
+    .layout .s7 #s7_content #title_1_s7{
+      font-size: 2.3rem;
+    }
+    .layout .s7 #s7_content #text_1_s7{
+      font-size: 1.22rem;
+    }
+    .layout .s8 svg {
+      width: 20px;
+    }
+    .layout .s8 #s8_content #title_1_s8{
+      font-size: 2.3rem;
+    }
+    .layout .s8 #s8_content #text_1_s8{
+      font-size: 1.22rem;
+    }
+    .layout .s8 #s8_content #text_2_s8{
+      font-size: 1.22rem;
+    }
+    footer{
+      font-size: 0.85rem;
+      width: 80%;
     }
   }
 
