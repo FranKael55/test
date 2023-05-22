@@ -904,6 +904,7 @@
   
   @media screen and (orientation: landscape) and (min-width: 320px) {
     body {
+      background-color: chartreuse;
     }
     .layout .s2 svg {
       width: 20px;
@@ -1091,6 +1092,7 @@
     
     body {
       width: 0px;
+      background-color: aqua;
     }
 
     .layout .section-stick {
@@ -1139,6 +1141,7 @@
 
     body {
       width: 0px;
+      background-color: brown;
     }
 
     .layout .section-stick {
