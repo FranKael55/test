@@ -67,7 +67,7 @@ const title_1_s4 = document.getElementById('title_1_s4');
 const text_1_s4 = document.getElementById('text_1_s4');
 const title_1_s5 = document.getElementById('title_1_s5');
 const text_1_s5 = document.getElementById('text_1_s5');
-const title_1_s6 = document.getElementById('title_1_s6');
+// const title_1_s6 = document.getElementById('title_1_s6');
 const text_1_s6 = document.getElementById('text_1_s6');
 const text_2_s6 = document.getElementById('text_2_s6');
 const title_1_s7 = document.getElementById('title_1_s7');
@@ -92,7 +92,7 @@ const cargarImagen = (entradas, observador) => {
 const observador = new IntersectionObserver(cargarImagen, {
     root: null,
     rootMargin: '0px 0px 0px 0px',
-    threshold: 0.5,
+    threshold: 0
 });
 
 observador.observe(title_1_s2);
@@ -104,7 +104,7 @@ observador.observe(title_1_s4);
 observador.observe(text_1_s4);
 observador.observe(title_1_s5);
 observador.observe(text_1_s5);
-observador.observe(title_1_s6);
+// observador.observe(title_1_s6);
 observador.observe(text_1_s6);
 observador.observe(text_2_s6);
 observador.observe(title_1_s7);
