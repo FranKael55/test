@@ -907,8 +907,9 @@
     background-color: aquamarine;
     }
     .layout section {
-      transform: scale(0.5);
+      scale:1;
     }
+    
     .layout .s2 svg {
       width: 20px;
     }
