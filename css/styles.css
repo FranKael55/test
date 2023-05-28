@@ -906,11 +906,7 @@
     body {
       background-color: chartreuse;
     }
-    .layout {
-      width: 100%;
-      height: 100vh
-      position: relative;
-    }    
+  
     .layout .s2 svg {
       width: 20px;
     }
@@ -939,7 +935,7 @@
     .layout .s7 #s7_content p{
       font-size: 1rem;
     }
-    .layout .s8 #s8content p{
+    .layout .s8 #s8_content p{
       font-size: 1rem;
     }
     .layout .s2 #s2_content #text_1_s2{
