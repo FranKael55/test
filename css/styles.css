@@ -908,7 +908,7 @@
     }
     .layout {
       width: 100%;
-      height: calc(100vh * 1);
+      height: 100vh
       position: relative;
     }    
     .layout .s2 svg {
