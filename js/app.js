@@ -58,23 +58,14 @@ window.onscroll = () => {
 // ---------------------------  Effects  ---------------------------
 
 // Variables & Constants
-const title_1_s2 = document.getElementById('title_1_s2');
-const text_1_s2 = document.getElementById('text_1_s2');
-const title_1_s3 = document.getElementById('title_1_s3');
-const text_1_s3 = document.getElementById('text_1_s3');
-const text_2_s3 = document.getElementById('text_2_s3');
-const title_1_s4 = document.getElementById('title_1_s4');
-const text_1_s4 = document.getElementById('text_1_s4');
-const title_1_s5 = document.getElementById('title_1_s5');
-const text_1_s5 = document.getElementById('text_1_s5');
-// const title_1_s6 = document.getElementById('title_1_s6');
-// const text_1_s6 = document.getElementById('text_1_s6');
-const text_2_s6 = document.getElementById('text_2_s6');
-const title_1_s7 = document.getElementById('title_1_s7');
-const text_1_s7 = document.getElementById('text_1_s7');
-const title_1_s8 = document.getElementById('title_1_s8');
-const text_1_s8 = document.getElementById('text_1_s8');
-const text_2_s8 = document.getElementById('text_2_s8');
+const seccion_2 = document.getElementById('seccion_2');
+const seccion_3 = document.getElementById('seccion_3');
+const seccion_4 = document.getElementById('seccion_4');
+const seccion_5 = document.getElementById('seccion_5');
+const seccion_6 = document.getElementById('seccion_6');
+const seccion_7 = document.getElementById('seccion_7');
+const seccion_8 = document.getElementById('seccion_8');
+
 
 
 
@@ -92,23 +83,13 @@ const cargarImagen = (entradas, observador) => {
 const observador = new IntersectionObserver(cargarImagen, {
     root: null,
     rootMargin: '0px 0px 0px 0px',
-    threshold: 1.0
+    threshold: 0
 });
 
-observador.observe(title_1_s2);
-observador.observe(text_1_s2);
-observador.observe(title_1_s3);
-observador.observe(text_1_s3);
-observador.observe(text_2_s3);
-observador.observe(title_1_s4);
-observador.observe(text_1_s4);
-observador.observe(title_1_s5);
-observador.observe(text_1_s5);
-// observador.observe(title_1_s6);
-// observador.observe(text_1_s6);
-observador.observe(text_2_s6);
-observador.observe(title_1_s7);
-observador.observe(text_1_s7);
-observador.observe(title_1_s8);
-observador.observe(text_1_s8);
-observador.observe(text_2_s8);
+observador.observe(seccion_2);
+observador.observe(seccion_3);
+observador.observe(seccion_4);
+observador.observe(seccion_5);
+observador.observe(seccion_6);
+observador.observe(seccion_7);
+observador.observe(seccion_8);
