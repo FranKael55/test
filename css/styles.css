@@ -906,6 +906,10 @@
     body {
     background-color: aquamarine;
     }
+    .animated{
+      width: 200px;
+      height: 80px;
+    }
     .layout .s2 svg {
       width: 20px;
     }
