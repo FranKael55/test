@@ -908,7 +908,7 @@
     }
     .layout {
       width: 100%;
-      height: calc(100vh * 2);
+      height: calc(100vh * 1);
       position: relative;
     }    
     .layout .s2 svg {
@@ -918,8 +918,29 @@
       width: 75%;
     }
     .layout .s2 #s2_content #title_1_s2{
-      font-size: 2.3rem;
+      font-size: 1rem;
       margin-bottom: 30px;
+    }
+    .layout .s2 #s2_content p{
+    font-size: 1rem;
+    }
+    .layout .s3 #s3_content p{
+      font-size: 1rem;
+    }
+    .layout .s4 #s4_content p{
+      font-size: 1rem;
+    }
+    .layout .s5 #s5_content p{
+      font-size: 1rem;
+    }
+    .layout .s6 #s6_content p{
+      font-size: 1rem;
+    }
+    .layout .s7 #s7_content p{
+      font-size: 1rem;
+    }
+    .layout .s8 #s8content p{
+      font-size: 1rem;
     }
     .layout .s2 #s2_content #text_1_s2{
       font-size: 1.22rem;
