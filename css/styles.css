@@ -904,7 +904,13 @@
   
   @media screen and (orientation: landscape) and (min-width: 320px) {
     body {
+      background-color: chartreuse;
     }
+    .layout {
+      width: 100%;
+      height: calc(100vh * 2);
+      position: relative;
+    }    
     .layout .s2 svg {
       width: 20px;
     }
